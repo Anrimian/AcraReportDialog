@@ -5,7 +5,7 @@ android {
         release {
             keyAlias '123456'
             keyPassword '123456'
-            storeFile file('C:/Users/Vlad/AndroidStudioProjects/AcraReportDialog/sample/key_for_release_sample.jks')
+            storeFile file('key_for_release_sample.jks')
             storePassword '123456'
         }
     }
