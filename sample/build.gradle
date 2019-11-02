@@ -9,11 +9,11 @@ android {
             storePassword '123456'
         }
     }
-    compileSdkVersion 28
+    compileSdkVersion 29
     defaultConfig {
         applicationId "com.github.anrimian.acrareportdialog.sample"
         minSdkVersion 15
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -28,14 +28,17 @@ android {
 
         }
     }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
 }
 
 dependencies {
     implementation project(':lib')
     implementation 'ch.acra:acra:4.9.2'
-    debugImplementation project(':lib')
-    debugImplementation 'ch.acra:acra:4.9.2'
 
-    implementation 'androidx.appcompat:appcompat:1.1.0-alpha02'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha3'
+//    check later
+//    debugImplementation project(':lib')
+//    debugImplementation 'ch.acra:acra:4.9.2'
 }
