@@ -19,7 +19,8 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         if (BuildConfig.DEBUG) {
-            initAcra();
+//            initAcra();
+            AcraReportDialog.setupCrashDialog(this);
         }
     }
 
