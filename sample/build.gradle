@@ -36,7 +36,7 @@ android {
 
 dependencies {
     implementation project(':lib')
-    implementation 'ch.acra:acra:4.9.2'
+//    implementation 'ch.acra:acra:4.9.2'
 
 //    check later
 //    debugImplementation project(':lib')
