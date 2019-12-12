@@ -1,5 +1,5 @@
 # AcraReportDialog
-Android Acra report dialog. Shows stacktrace on screen when app crashes. Can be useful for developing
+Android Acra report dialog. Shows stacktrace on screen when app crashes. Can be useful for developing.
 
 ## Usage
 ```
@@ -11,24 +11,24 @@ public class YourApp extends Application {
          //...  
          if (BuildConfig.DEBUG) {  
              AcraReportDialog.setupCrashDialog(this);  
-          }  
+         }  
     }  
     
 }
 ```
 
-## Import repository:
+## Repository
 Make sure you have jitpack repository in your root build.gradle
 
 ```
 allprojects {
     repositories {
         ...
-		maven { url 'https://jitpack.io' }
-	}
+	maven { url 'https://jitpack.io' }
+    }
 }
 ```
-Add dependecy 
+Add dependecy
 
 ```
 dependencies {
@@ -36,4 +36,5 @@ dependencies {
 }
 ```
 Latest version: [![](https://jitpack.io/v/Anrimian/AcraReportDialog.svg)](https://jitpack.io/#Anrimian/AcraReportDialog)
+
 
